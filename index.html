@@ -1,28 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MetaFuel - Tus metas semanales</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>MetaFuel</h1>
-    <p>Impulsa tu semana. Cumple tus metas.</p>
-  </header>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Montador de Pladur Profesional — 35+ años | Contacto: 623 319 842</title>
+  <meta name="description" content="Montador de pladur y profesional de la construcción con más de 35 años de experiencia. Pladur, tabiques, techos, aislamiento y trabajos relacionados con obra. Contacto: 623 319 842" />
+  <style>
+    :root{--accent:#0b6cf0;--dark:#111217;--muted:#6b7280;--card:#ffffff;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:#f5f7fb;color:var(--dark);-webkit-font-smoothing:antialiased}
+    header{background:linear-gradient(90deg,#ffffff 0%, #f0f6ff 100%);border-bottom:1px solid #e6eefc}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#2dd4bf);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    .brand h1{font-size:18px;margin:0}
+    .phone{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    main{padding:36px 0}
+    .hero{display:grid;grid-template-columns:1fr;gap:22px;align-items:center}
+    @media(min-width:880px){.hero{grid-template-columns:1fr 420px}}
+    .hero-left h2{margin:0 0 12px;font-size:28px}
+    .badge{display:inline-block;background:#e6f0ff;color:var(
 
-  <section class="goal-input">
-    <input type="text" id="goalText" placeholder="Escribe tu objetivo semanal..." />
-    <button onclick="addGoal()">Agregar objetivo</button>
-  </section>
-
-  <section class="progress">
-    <p><span id="completedCount">0</span> de <span id="totalCount">0</span> metas completadas</p>
-  </section>
-
-  <section class="goals-list" id="goalsList"></section>
-
-  <script src="script.js"></script>
-</body>
-</html>
