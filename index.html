@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MetaFuel - Tus metas semanales</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>MetaFuel</h1>
+    <p>Impulsa tu semana. Cumple tus metas.</p>
+  </header>
+
+  <section class="goal-input">
+    <input type="text" id="goalText" placeholder="Escribe tu objetivo semanal..." />
+    <button onclick="addGoal()">Agregar objetivo</button>
+  </section>
+
+  <section class="progress">
+    <p><span id="completedCount">0</span> de <span id="totalCount">0</span> metas completadas</p>
+  </section>
+
+  <section class="goals-list" id="goalsList"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
