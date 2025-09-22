@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profesional de la Construcción - 35 Años de Experiencia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f7;
+      color: #333;
+    }
+    header {
+      background: #1e3d59;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #16324f;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 10%;
+    }
+    .about, .services, .contact {
+      margin-bottom: 3rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1e3d59;
+      margin-bottom: 1rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #27ae60;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    /* Botón flotante de WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 2.5rem;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s;
+      text-decoration: none;
+    }
+    .whatsapp-float:hover {
+      background: #1ebe5d;
+    }
+  </style>
+  <!-- Icono de WhatsApp -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Profesional de la Construcción</h1>
+    <p>35 Años de experiencia en obras civiles y remodelaciones</p>
+  </header>
+  <nav>
+    <a href="#about">Sobre mí</a>
+    <a href="#services">Servicios</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+  <section id="about" class="about">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy un profesional de la construcción con más de 35 años de experiencia en el sector. He participado en todo tipo de obras civiles, remodelaciones de viviendas, oficinas y comercios, garantizando siempre calidad, cumplimiento y satisfacción para mis clientes.
+    </p>
+    <ul>
+      <li>35 años de experiencia</li>
+      <li>Amplia cartera de clientes satisfechos</li>
+      <li>Soluciones integrales y personalizadas</li>
+      <li>Compromiso con la calidad y los tiempos de entrega</li>
+    </ul>
+  </section>
+  <section id="services" class="services">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Remodelación de baños y cocinas</li>
+      <li>Construcción y ampliación de viviendas</li>
+      <li>Reparaciones estructurales</li>
+      <li>Pintura y acabados</li>
+      <li>Asesoría en diseño y materiales</li>
+      <li>Electricidad y plomería</li>
+      <li>Instalación de pisos y revestimientos</li>
+    </ul>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <p>
+      ¿Quieres cotizar tu proyecto o tienes alguna consulta? Contáctame por WhatsApp o correo electrónico:
+    </p>
+    <a href="mailto:profesional.construccion@email.com">Enviar correo</a>
+    <br>
+    <a href="https://wa.me/5491123456789" target="_blank" style="background:#25d366; margin-top:10px;">
+      Escribir por WhatsApp
+    </a>
+  </section>
+  <footer>
+    &copy; 2025 Profesional de la Construcción. Todos los derechos reservados.
+  </footer>
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/5491123456789" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
